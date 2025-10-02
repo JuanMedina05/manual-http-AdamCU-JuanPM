@@ -27,10 +27,23 @@
 
 ### 1.5. Archivos de configuración
 
-- [] Crear archivo .env con las siguientes variables:
+- [x] Crear archivo .env con las siguientes variables:
 1. PORT (valor:4000)
 2. API_BASE_URL (valor: http//localhost)
 3. NODE_ENV (valor:development)
 
 - [] Crear archivo .env.example
 - [] Crear archivo .gitgnore que debe ignorar:
+1. node_modules/
+2. .env
+3. Archivos de logs
+4. Archivos del sistema operativo
+5. Carpetas de editors (opcional:thunder-tests/)
+
+### 1.6. Base de datos json-server
+- [] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
+- [] La base de datos contiene:
+1. Colección students con 7 estudiantes
+2. Colección courses con 4 cursos
+3. Colección enrollments con 4 inscripciones
+
