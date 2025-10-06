@@ -1,6 +1,6 @@
 # Checklist proyecto
 
-## Parte 1: Configuración inicial del proyecto
+### Parte 1: Configuración inicial del proyecto
 
 ### 1.1. Inicialización del proyecto
 
@@ -41,9 +41,117 @@
 5. Carpetas de editors (opcional:thunder-tests/)
 
 ### 1.6. Base de datos json-server
+
 - [] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
 - [] La base de datos contiene:
 1. Colección students con 7 estudiantes
 2. Colección courses con 4 cursos
 3. Colección enrollments con 4 inscripciones
+
+### 2.0 Funciones de CRUD con funciones JS
+
+- [] Funcion createStudent(studentData)
+- [] Funcion readAllStudents
+- [] Funcion readStudentById(id)
+- [] Funcion updateStudent(id, studentData)
+- [] Funcion patchStudent(id, partialData)
+- [] Funcion deleteStudent(id)
+- [] Ejecucion de Script
+
+### 3.1 Operaciones CRUD y su respectiva documentacion
+
+- [] Operacion CREATE
+- [] Operacion READ ALL
+- [] Operacion READ BY ID
+- [] Operacion UPDATE
+- [] Operacion PATCH
+- [] Operacion DELETE
+
+### 4.2 Peticiones Thunder Client
+
+- [] Peticion CREATE Student (POST)
+- [] Peticion GET All Students (GET)
+- [] Peticion GET Student by ID (GET)
+- [] Peticion UPDATE Student (PUT)
+- [] Peticion PATCH Student (PATCH)
+- [] Peticion DELETE Student (DELETE)
+
+### 5.2 Peticiones REST Client
+
+- [] Peticion CREATE - Crear estudiante
+- [] Peticion READ - Todos los estudiantes
+- [] Peticion READ - Estudiante por ID
+- [] Peticion READ - Filtrar estudiantes activos
+- [] Peticion READ - Filtrar por nivel
+- [] Peticion UPDATE - Actualizar estudiante completo (PUT)
+- [] Peticion PATCH - Actualizar campo específico
+- [] Peticion DELETE - Eliminar estudiante
+
+### 6. Script de validacion (validate.sh)
+
+- [] Existencia de package.json
+- [] Existencia de src/db/db.json
+- [] Existencia de .gitignore
+- [] Existencia de .env.example
+- [] Existencia de README.md
+- [] Existencia de checklist.md
+- [] Existencia de peticiones-crud.http
+- [] Existencia de carpeta src/
+- [] Existencia de src/crud-curl.js
+- [] Existencia de carpeta images/
+- [] Existencia de carpeta scripts/
+- [] Verificar en package.json:
+1. Que tiene "type": "module"
+2. Que dotenv está instalado
+3. Que json-server está instalado
+4. Que existe script server:up
+5. Que existe script crud:curl
+- []  Verificar existencia de al menos 6 capturas de Thunder Client en images/
+- [] Mostrar mensaje final indicando si pasó o falló la validación
+
+### 8. Tareas de Git 
+
+### 8.1 Repositorio
+
+- [] Creacion de repositorio en Github 
+- [] Nombre: manual-http-[tu-nombre]
+- [] Añadir al profesor como colaborador
+
+### 8.2 Configuracion local
+
+- [] Inicializar Git en tu proyecto local
+- [] Conectar con el repositorio remoto
+- [] Crear rama principal main
+- [] Subir código inicia
+
+### 8.3 Rama de desarrollo
+
+- [] Crear rama m1/http-request-response
+- [] Cambiar a esa rama para trabajar
+
+### 8.4 Commits
+
+- [] Realizar commits incrementales por cada fase del checklist
+- [] Los mensajes de commit deben ser descriptivos
+- [] Usar convención: feat:, docs:, fix:, etc.
+
+### 8.5 Pull Request
+
+- [] Subir la rama al repositorio remoto
+- [] Crear Pull Request desde m1/http-request-response hacia main
+- [] Título del PR: "Entrega M1/http-request-response"
+- [] Descripción detallada del PR que incluya:
+1. Resumen de lo implementado
+2. División del trabajo (si es en pareja)
+3. Dificultades encontradas y soluciones
+4. Características completadas
+- [] Asignar al profesor como reviewer
+- [] Enviar el PR
+
+### 8.6 Después de la aprobación
+
+- [] Una vez el profesor apruebe y haga merge
+- [] Actualizar tu rama main local
+- [] Crear tag M1/http-request-response
+- [] Subir el tag al repositorio remoto
 
