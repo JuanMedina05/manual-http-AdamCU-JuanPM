@@ -69,12 +69,12 @@
 
 ### 4.2 Peticiones Thunder Client
 
-- [] Peticion CREATE Student (POST)
-- [] Peticion GET All Students (GET)
-- [] Peticion GET Student by ID (GET)
-- [] Peticion UPDATE Student (PUT)
-- [] Peticion PATCH Student (PATCH)
-- [] Peticion DELETE Student (DELETE)
+- [x] Peticion CREATE Student (POST)
+- [x] Peticion GET All Students (GET)
+- [x] Peticion GET Student by ID (GET)
+- [x] Peticion UPDATE Student (PUT)
+- [x] Peticion PATCH Student (PATCH)
+- [x] Peticion DELETE Student (DELETE)
 
 ### 5.2 Peticiones REST Client
 
@@ -133,7 +133,7 @@
 
 - [x] Realizar commits incrementales por cada fase del checklist
 - [x] Los mensajes de commit deben ser descriptivos
-- [] Usar convención: feat:, docs:, fix:, etc.
+- [x] Usar convención: feat:, docs:, fix:, etc.
 
 ### 8.5 Pull Request
 
