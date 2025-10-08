@@ -9,14 +9,6 @@
       "level": "intermediate"
     },
     {
-      "id": "2",
-      "name": "Carlos Rodríguez Martín",
-      "email": "carlos.rodriguez@email.com",
-      "enrollmentDate": "2024-10-01",
-      "active": false,
-      "level": "beginner"
-    },
-    {
       "id": "3",
       "name": "Ana Fernández Silva",
       "email": "ana.fernandez@email.com",
@@ -25,33 +17,25 @@
       "level": "advanced"
     },
     {
-      "id": "4",
-      "name": "David Sánchez Torres",
-      "email": "david.sanchez@email.com",
-      "enrollmentDate": "2024-09-10",
-      "active": true,
-      "level": "intermediate"
-    },
-    {
       "id": "5",
-      "name": "Laura Martínez Ruiz",
-      "email": "laura.martinez@email.com",
-      "enrollmentDate": "2024-09-25",
-      "active": true,
-      "level": "beginner"
-    },
-    {
-      "id": "6",
-      "name": "Javier López Gómez",
-      "email": "javier.lopez@email.com",
-      "enrollmentDate": "2024-07-15",
-      "active": true,
-      "level": "advanced"
+      "name": "Carlos Rodríguez Martín",
+      "email": "carlos.rodriguez@email.com",
+      "enrollmentDate": "2024-10-01",
+      "active": false,
+      "level": "intermediate"
     },
     {
       "id": "79eb",
       "name": "Sofía Ramírez Castro",
       "email": "sofia.ramirez@email.com",
+      "enrollmentDate": "2024-10-07",
+      "active": true,
+      "level": "beginner"
+    },
+    {
+      "id": "fe64",
+      "name": "Pedro Ramírez",
+      "email": "pedro.ramirez@email.com",
       "enrollmentDate": "2024-10-07",
       "active": true,
       "level": "beginner"
