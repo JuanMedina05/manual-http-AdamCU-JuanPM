@@ -78,14 +78,14 @@
 
 ### 5.2 Peticiones REST Client
 
-- [] Peticion CREATE - Crear estudiante
-- [] Peticion READ - Todos los estudiantes
-- [] Peticion READ - Estudiante por ID
-- [] Peticion READ - Filtrar estudiantes activos
-- [] Peticion READ - Filtrar por nivel
-- [] Peticion UPDATE - Actualizar estudiante completo (PUT)
-- [] Peticion PATCH - Actualizar campo específico
-- [] Peticion DELETE - Eliminar estudiante
+- [x] Peticion CREATE - Crear estudiante
+- [x] Peticion READ - Todos los estudiantes
+- [x] Peticion READ - Estudiante por ID
+- [x] Peticion READ - Filtrar estudiantes activos
+- [x] Peticion READ - Filtrar por nivel
+- [x] Peticion UPDATE - Actualizar estudiante completo (PUT)
+- [x] Peticion PATCH - Actualizar campo específico
+- [x] Peticion DELETE - Eliminar estudiante
 
 ### 6. Script de validacion (validate.sh)
 
