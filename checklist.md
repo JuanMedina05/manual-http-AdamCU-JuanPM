@@ -48,7 +48,7 @@
 2. Colección courses con 4 cursos
 3. Colección enrollments con 4 inscripciones
 
-### 2.0 Funciones de CRUD con funciones JS
+### Parte 2: Funciones de CRUD con funciones JS
 
 - [x] Funcion createStudent(studentData)
 - [x] Funcion readAllStudents
@@ -58,7 +58,7 @@
 - [x] Funcion deleteStudent(id)
 - [x] Ejecucion de Script
 
-### 3.1 Operaciones CRUD y su respectiva documentacion
+### Parte 3: Operaciones CRUD y su respectiva documentacion
 
 - [x] Operacion CREATE
 - [x] Operacion READ ALL
@@ -67,7 +67,7 @@
 - [x] Operacion PATCH
 - [x] Operacion DELETE
 
-### 4.2 Peticiones Thunder Client
+### Parte 4: Peticiones Thunder Client
 
 - [x] Peticion CREATE Student (POST)
 - [x] Peticion GET All Students (GET)
@@ -76,7 +76,7 @@
 - [x] Peticion PATCH Student (PATCH)
 - [x] Peticion DELETE Student (DELETE)
 
-### 5.2 Peticiones REST Client
+### Parte 5: Peticiones REST Client
 
 - [x] Peticion CREATE - Crear estudiante
 - [x] Peticion READ - Todos los estudiantes
@@ -87,7 +87,7 @@
 - [x] Peticion PATCH - Actualizar campo específico
 - [x] Peticion DELETE - Eliminar estudiante
 
-### 6. Script de validacion (validate.sh)
+### Parte 6: Script de validacion (validate.sh)
 
 - [x] Existencia de package.json
 - [x] Existencia de src/db/db.json
@@ -109,7 +109,7 @@
 - []  Verificar existencia de al menos 6 capturas de Thunder Client en images/
 - [] Mostrar mensaje final indicando si pasó o falló la validación
 
-### 8. Tareas de Git 
+### Parte 8: Tareas de Git 
 
 ### 8.1 Repositorio
 
