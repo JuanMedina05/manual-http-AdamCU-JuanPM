@@ -113,26 +113,26 @@
 
 ### 8.1 Repositorio
 
-- [] Creacion de repositorio en Github 
-- [] Nombre: manual-http-[tu-nombre]
-- [] Añadir al profesor como colaborador
+- [x] Creacion de repositorio en Github 
+- [x] Nombre: manual-http-[tu-nombre]
+- [x] Añadir al profesor como colaborador
 
 ### 8.2 Configuracion local
 
-- [] Inicializar Git en tu proyecto local
-- [] Conectar con el repositorio remoto
-- [] Crear rama principal main
-- [] Subir código inicia
+- [x] Inicializar Git en tu proyecto local
+- [x] Conectar con el repositorio remoto
+- [x] Crear rama principal main
+- [x] Subir código inicial
 
 ### 8.3 Rama de desarrollo
 
-- [] Crear rama m1/http-request-response
-- [] Cambiar a esa rama para trabajar
+- [x] Crear rama m1/http-request-response
+- [x] Cambiar a esa rama para trabajar
 
 ### 8.4 Commits
 
-- [] Realizar commits incrementales por cada fase del checklist
-- [] Los mensajes de commit deben ser descriptivos
+- [x] Realizar commits incrementales por cada fase del checklist
+- [x] Los mensajes de commit deben ser descriptivos
 - [] Usar convención: feat:, docs:, fix:, etc.
 
 ### 8.5 Pull Request
