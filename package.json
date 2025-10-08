@@ -2,6 +2,7 @@
   "name": "manual-http-adamcu-juanpm",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,7 +11,7 @@
     "validate": "bash validate.sh"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/JuanMedina05/manual-http-AdamCU-JuanPM.git"
   },
   "author": "",
