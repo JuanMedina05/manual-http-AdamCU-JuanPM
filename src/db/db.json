@@ -17,14 +17,6 @@
       "level": "beginner"
     },
     {
-      "id": "3",
-      "name": "Ana Fernández Silva",
-      "email": "ana.fernandez@email.com",
-      "enrollmentDate": "2024-08-20",
-      "active": true,
-      "level": "advanced"
-    },
-    {
       "id": "4",
       "name": "David Sánchez Torres",
       "email": "david.sanchez@email.com",
@@ -55,6 +47,13 @@
       "enrollmentDate": "2024-10-07",
       "active": true,
       "level": "beginner"
+    },
+    {
+      "id": "a323",
+      "name": "Laura Gomez",
+      "age": 23,
+      "course": "Web",
+      "active": true
     }
   ],
   "courses": [
