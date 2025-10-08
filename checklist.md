@@ -42,7 +42,7 @@
 
 ### 1.6. Base de datos json-server
 
-- x[] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
+- [x] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
 - [x] La base de datos contiene:
 1. Colección students con 7 estudiantes
 2. Colección courses con 4 cursos
@@ -56,7 +56,7 @@
 - [x] Funcion updateStudent(id, studentData)
 - [x] Funcion patchStudent(id, partialData)
 - [x] Funcion deleteStudent(id)
-- [] Ejecucion de Script
+- [x] Ejecucion de Script
 
 ### 3.1 Operaciones CRUD y su respectiva documentacion
 
