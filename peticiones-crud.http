@@ -1,0 +1,52 @@
+###Definicon de variables 
+@baseUrl = http://localhost
+@port = 4000
+@apiUrl = {{baseUrl}}:{{port}}/students
+
+### CREATE - Crear estudiante
+POST {{apiUrl}}
+Content-Type: application/json
+
+{
+    "name": "Sofía Ramírez Castro",
+    "email": "sofia.ramirez@email.com",
+    "enrollmentDate": "2024-10-07",
+    "active": true,
+    "level": "beginner"
+}
+
+### READ ALL- Todos los estudiantes
+GET {{apiUrl}}
+
+### READ BY - Estudiantes por ID
+GET {{apiUrl}}/1
+
+### READ - Filtrar por estudiantes activos
+GET {{apiUrl}}?active=true
+
+### READ - Filtrar por nivel
+GET {{apiUrl}}?level=intermediate
+
+### UPDATE - Actualizar estudiante completo
+PUT {{apiUrl}}/2
+Content-Type: application/json
+
+{
+  "id": 2,
+  "name": "Carlos Rodríguez Martín",
+  "email": "carlos.rodriguez@email.com",
+  "enrollmentDate": "2024-10-01",
+  "active": false,
+  "level": "beginner"
+}
+
+### PATCH - Actualizar campo específico
+PATCH {{apiUrl}}/3
+Content-Type: application/json
+
+{
+    "active": true
+}
+
+### DELETE - Eliminar estudiante
+DELETE {{apiUrl}}/7
