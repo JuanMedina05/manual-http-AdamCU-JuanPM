@@ -89,18 +89,18 @@
 
 ### 6. Script de validacion (validate.sh)
 
-- [] Existencia de package.json
-- [] Existencia de src/db/db.json
-- [] Existencia de .gitignore
-- [] Existencia de .env.example
-- [] Existencia de README.md
-- [] Existencia de checklist.md
-- [] Existencia de peticiones-crud.http
-- [] Existencia de carpeta src/
-- [] Existencia de src/crud-curl.js
-- [] Existencia de carpeta images/
-- [] Existencia de carpeta scripts/
-- [] Verificar en package.json:
+- [x] Existencia de package.json
+- [x] Existencia de src/db/db.json
+- [x] Existencia de .gitignore
+- [x] Existencia de .env.example
+- [x] Existencia de README.md
+- [x] Existencia de checklist.md
+- [x] Existencia de peticiones-crud.http
+- [x] Existencia de carpeta src/
+- [x] Existencia de src/crud-curl.js
+- [x] Existencia de carpeta images/
+- [x] Existencia de carpeta scripts/
+- [x] Verificar en package.json:
 1. Que tiene "type": "module"
 2. Que dotenv está instalado
 3. Que json-server está instalado
