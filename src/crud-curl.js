@@ -19,7 +19,7 @@ curl -X POST ${BASE_URL}/students \\
 }
 
 //Funcion READ AlL - Leer todos los estudiantes 
-function readStudentById(id) {
+function readAllStudents(id) {
     console.log(`
 curl -X GET ${BASE_URL}/students
     `);
@@ -56,3 +56,40 @@ function deleteStudent(id) {
 curl -X DELETE ${BASE_URL}/students/${id}
   `);
 }
+
+//EJECUCION de SCRIPT 
+//Mensaje de iniciacion de ejecucion de scripts
+console.log("Generando comandos cURL CRUD\n");
+
+//Ejecucion de funcion CREATE
+createStudent({
+    name: "Nuevo Estudiante",
+    email: "nuevo@email.com",
+    enrollmentDate: "2024-10-07",
+    active: true,
+    level: "beginner"
+});
+
+//Ejecucion de funcion READ ALL
+readAllStudents();
+
+//Ejecucion de funcion READ BY
+readStudentById(1);
+
+//Ejecucion de funcion UPDATE
+updateStudent(2, {
+    name: "Juan Martínez Vílchez",
+    email: "juanmarvil@email.com",
+    enrollmentDate: "2024-10-01",
+    active: true,
+    level: "intermediate"
+});
+
+//Ejecucion de funcion PATCH 
+patchStudent(3, { active: false});
+
+//Ejecucion de funcion DELETE
+deleteStudent(7);
+
+//Mensaje de finalizacion de ejecucion de scripts 
+console.log("Comandos generados con exito");
