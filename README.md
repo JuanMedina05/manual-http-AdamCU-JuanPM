@@ -1,5 +1,5 @@
 
-## Sección CRUD
+## Documentación CRUD con cURL
 
 ### CREATE: Crear un estudiante con POST
 
@@ -45,6 +45,9 @@ Content-Length: 95
 }
 ```
 Se crea correctamente (201 Created) y nos aparece el.
+
+#### Petición y respuesta (Thunder Client)
+![Create POST](images/Captura-Metodo-POST(CREATE).png)
 
 ### READ ALL: Leer todos los estudiantes con GET.
 
@@ -142,6 +145,9 @@ Content-Length: 1394
 ```
 La petición se procesa correctamente y se devuelve el recurso solicitado (200 OK).
 
+#### Petición y respuesta (Thunder Client)
+![READ ALL GET](images/Captura-Metodo-GET(READ-ALL).png)
+
 ### READ BY ID: Leer un estudiante por ID con GET.
 
 ```bash
@@ -176,7 +182,10 @@ Content-Length: 162
 
 El recurso ha sido encontrado y devuelto (200 OK).
 
-### UPDATE PATCH: Reemplazar un estudiante con PUT.
+#### Petición y respuesta (Thunder Client)
+![READ BY ID GET](images/Captura-Metodo-GET(READ-BY-ID).png)
+
+### UPDATE: Reemplazar un estudiante con PUT.
 
 ```bash
 curl -i -X PUT http://localhost:4000/students/3 \
@@ -217,6 +226,9 @@ Content-Length: 97
 ```
 
 La actualización se ha realizado correctamente (200 OK).
+
+#### Petición y respuesta (Thunder Client)
+![UPDATE PATCH PUT](images/Captura-Metodo-PUT(UPDATE).png)
 
 ### PATCH: actualización parcial con PATCH
 
@@ -260,6 +272,9 @@ Content-Length: 98
 
 La actualización se ha realizado correctamente (200 OK).
 
+#### Petición y respuesta (Thunder Client)
+![PATCH](images/Captura-Metodo-PATCH.png)
+
 ### DELETE: Eliminar un estudiante con DELETE
 
 ```bash
@@ -292,3 +307,6 @@ Content-Length: 98
 ```
 
 La eliminación se ha realizado correctamente (200 OK).
+
+#### Petición y respuesta (Thunder Client)
+![DELETE](images/Captura-Metodo-DELETE.png)
