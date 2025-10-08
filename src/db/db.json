@@ -9,6 +9,14 @@
       "level": "intermediate"
     },
     {
+      "id": "2",
+      "name": "Carlos Rodríguez Martín",
+      "email": "carlos.rodriguez@email.com",
+      "enrollmentDate": "2024-10-01",
+      "active": false,
+      "level": "beginner"
+    },
+    {
       "id": "3",
       "name": "Ana Fernández Silva",
       "email": "ana.fernandez@email.com",
@@ -28,14 +36,6 @@
       "id": "79eb",
       "name": "Sofía Ramírez Castro",
       "email": "sofia.ramirez@email.com",
-      "enrollmentDate": "2024-10-07",
-      "active": true,
-      "level": "beginner"
-    },
-    {
-      "id": "fe64",
-      "name": "Pedro Ramírez",
-      "email": "pedro.ramirez@email.com",
       "enrollmentDate": "2024-10-07",
       "active": true,
       "level": "beginner"

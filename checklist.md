@@ -60,12 +60,12 @@
 
 ### 3.1 Operaciones CRUD y su respectiva documentacion
 
-- [] Operacion CREATE
-- [] Operacion READ ALL
-- [] Operacion READ BY ID
-- [] Operacion UPDATE
-- [] Operacion PATCH
-- [] Operacion DELETE
+- [x] Operacion CREATE
+- [x] Operacion READ ALL
+- [x] Operacion READ BY ID
+- [x] Operacion UPDATE
+- [x] Operacion PATCH
+- [x] Operacion DELETE
 
 ### 4.2 Peticiones Thunder Client
 
