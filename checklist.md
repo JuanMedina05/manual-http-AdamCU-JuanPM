@@ -32,8 +32,8 @@
 2. API_BASE_URL (valor: http//localhost)
 3. NODE_ENV (valor:development)
 
-- [] Crear archivo .env.example
-- [] Crear archivo .gitgnore que debe ignorar:
+- [x] Crear archivo .env.example
+- [x] Crear archivo .gitgnore que debe ignorar:
 1. node_modules/
 2. .env
 3. Archivos de logs
@@ -42,20 +42,20 @@
 
 ### 1.6. Base de datos json-server
 
-- [] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
-- [] La base de datos contiene:
+- x[] Crear archivo src/db/db.json con la estructura de base de datos proporcionada por el profesor
+- [x] La base de datos contiene:
 1. Colección students con 7 estudiantes
 2. Colección courses con 4 cursos
 3. Colección enrollments con 4 inscripciones
 
 ### 2.0 Funciones de CRUD con funciones JS
 
-- [] Funcion createStudent(studentData)
-- [] Funcion readAllStudents
-- [] Funcion readStudentById(id)
-- [] Funcion updateStudent(id, studentData)
-- [] Funcion patchStudent(id, partialData)
-- [] Funcion deleteStudent(id)
+- [x] Funcion createStudent(studentData)
+- [x] Funcion readAllStudents
+- [x] Funcion readStudentById(id)
+- [x] Funcion updateStudent(id, studentData)
+- [x] Funcion patchStudent(id, partialData)
+- [x] Funcion deleteStudent(id)
 - [] Ejecucion de Script
 
 ### 3.1 Operaciones CRUD y su respectiva documentacion
