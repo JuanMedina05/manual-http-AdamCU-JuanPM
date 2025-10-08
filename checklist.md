@@ -137,16 +137,16 @@
 
 ### 8.5 Pull Request
 
-- [] Subir la rama al repositorio remoto
-- [] Crear Pull Request desde m1/http-request-response hacia main
-- [] Título del PR: "Entrega M1/http-request-response"
-- [] Descripción detallada del PR que incluya:
+- [x] Subir la rama al repositorio remoto
+- [x] Crear Pull Request desde m1/http-request-response hacia main
+- [x] Título del PR: "Entrega M1/http-request-response"
+- [x] Descripción detallada del PR que incluya:
 1. Resumen de lo implementado
 2. División del trabajo (si es en pareja)
 3. Dificultades encontradas y soluciones
 4. Características completadas
-- [] Asignar al profesor como reviewer
-- [] Enviar el PR
+- [x] Asignar al profesor como reviewer
+- [x] Enviar el PR
 
 ### 8.6 Después de la aprobación
 
