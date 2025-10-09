@@ -106,8 +106,8 @@
 3. Que json-server está instalado
 4. Que existe script server:up
 5. Que existe script crud:curl
-- []  Verificar existencia de al menos 6 capturas de Thunder Client en images/
-- [] Mostrar mensaje final indicando si pasó o falló la validación
+- [x]  Verificar existencia de al menos 6 capturas de Thunder Client en images/
+- [x] Mostrar mensaje final indicando si pasó o falló la validación
 
 ### Parte 8: Tareas de Git 
 
