@@ -1,9 +1,11 @@
 // Script que genera los comandos CURL, para realizar los comandos CRUD, sobre sobre la colección "students" del servidor json-server.
 
 //Cargar variables del archivo .env
-import dotenv from "dotenv";
+import { config } from "dotenv";
 import { exec } from "child_process";
-dotenv.config();
+
+config();
+
 
 //Variables de entorno
 const PORT = process.env.PORT;
