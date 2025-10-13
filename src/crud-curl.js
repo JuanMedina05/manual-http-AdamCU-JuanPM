@@ -158,37 +158,15 @@ export const deleteStudent = (id) => {
 
 //EJECUCION de SCRIPT 
 //Mensaje de iniciacion de ejecucion de scripts
-console.log("Generando comandos cURL CRUD\n");
+console.log("🚀 INICIANDO DEMO CRUD cURL\n");
 
-//Ejecucion de funcion CREATE
-createStudent({
-    name: "Nuevo Estudiante",
-    email: "nuevo@email.com",
-    enrollmentDate: "2024-10-07",
-    active: true,
-    level: "beginner"
-});
+createStudent();
+setTimeout(() => readAllStudents(), 2000);
+setTimeout(() => readStudentById(1), 4000);
+setTimeout(() => updateStudent(2), 6000);
+setTimeout(() => patchStudent(3), 8000);
+setTimeout(() => deleteStudent(7), 10000);
 
-//Ejecucion de funcion READ ALL
-readAllStudents();
-
-//Ejecucion de funcion READ BY
-readStudentById(1);
-
-//Ejecucion de funcion UPDATE
-updateStudent(2, {
-    name: "Juan Martínez Vílchez",
-    email: "juanmarvil@email.com",
-    enrollmentDate: "2024-10-01",
-    active: true,
-    level: "intermediate"
-});
-
-//Ejecucion de funcion PATCH 
-patchStudent(3, { active: false});
-
-//Ejecucion de funcion DELETE
-deleteStudent(7);
-
-//Mensaje de finalizacion de ejecucion de scripts 
-console.log("Comandos generados con exito");
+setTimeout(() => {
+  console.log("\n✅ CRUD FINALIZADO");
+}, 12000);
