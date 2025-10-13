@@ -10,7 +10,6 @@ config();
 //Variables de entorno
 const PORT = process.env.PORT;
 const API_BASE_URL = process.env.API_BASE_URL;
-const BASE_URL = `${API_BASE_URL}:${PORT}`;
 
 //Funcion CREATE - Crear nuevo estudiante
 export const createStudent = () => {
