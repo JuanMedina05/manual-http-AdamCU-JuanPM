@@ -2,15 +2,16 @@
   "name": "manual-http-adamcu-juanpm",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server:up": "json-server --watch db.json --port 4000",
+    "server:up": "json-server --watch src/db/db.json --port 4000",
     "crud:curl": "node src/crud-curl.js",
-    "validate": "bash validate.sh"
+    "validate": "bash scripts/validate.sh"
   },
   "repository": {
-    "type": "module",
+    "type": "git",
     "url": "git+https://github.com/JuanMedina05/manual-http-AdamCU-JuanPM.git"
   },
   "author": "",
